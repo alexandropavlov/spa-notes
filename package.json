@@ -2,7 +2,7 @@
   "name": "spa-notes",
   "version": "1.0.0",
   "description": "Notes single page application (React, Node.js, Express, MongoDB)",
-  "main": "hello.js",
+  "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,23 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "mongoose": "^4.6.6"
+    "mongoose": "^4.6.6",
+    "node-sass": "^3.11.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "sass": "^0.5.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.38",
+    "babel-loader": "^5.4.2",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "json-loader": "^0.5.4",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   }
 }
